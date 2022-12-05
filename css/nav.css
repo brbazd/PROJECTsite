@@ -1,0 +1,58 @@
+.topBar {
+	width: 100%;
+	background-color: #000;
+	height: 60px;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.navLeft {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navLeft #navLogo {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+
+.navLeft a .navButtons {
+	text-decoration: none;
+	margin: 0;
+	padding: 16px 30px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 24px;
+	color: white;
+	display: inline-block;
+	transition: 0.2s all;
+}
+
+.navLeft a .navButtons:hover {
+	background-color: limegreen;
+	color: #fff;
+}
+
+.navRight {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navRight #navCart {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+
+.navBar input {
+	padding: 6px 4px;
+	width: 250px;
+	margin: 0 25px;
+}
