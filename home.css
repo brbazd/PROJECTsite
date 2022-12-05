@@ -1,7 +1,68 @@
 #heroBackground {
 	width: 100%;
-	height: 660px;
+	height: 560px;
 	background-image: url("../images/guy-running.jpg");
 	background-position: center center;
 	background-size: cover;
+}
+
+.heroContent {
+	width: 50%;
+	height: 500px;
+	padding: 40px 0px;
+}
+
+.heroContent h2 {
+	color: white;
+	margin: 0 auto;
+	font-size: 78px;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.heroContent p {
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	padding: 16px 0px;
+}
+
+.heroContent #heroButton {
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.heroContent #heroButton span {
+	display: inline-block;
+	margin: auto;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+#saleBar {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.saleHeading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.saleHeading h2 {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: white;
+	margin: 4px;
 }
