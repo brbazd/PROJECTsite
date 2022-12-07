@@ -18,6 +18,7 @@
 }
 
 .navLeft #navLogo {
+	margin: 0 10px;
 	width: 30px;
 	height: 30px;
 	background-color: white;
@@ -31,11 +32,11 @@
 	font-size: 24px;
 	color: white;
 	display: inline-block;
-	transition: 0.2s all;
+	transition: 0.15s all;
 }
 
 .navLeft a .navButtons:hover {
-	background-color: limegreen;
+	background-color: #35b55b;
 	color: #fff;
 }
 
@@ -43,16 +44,12 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	margin-right: 10px;
 }
 
 .navRight #navCart {
+	margin: 0;
 	width: 30px;
 	height: 30px;
-	background-color: white;
-}
-
-.navBar input {
-	padding: 6px 4px;
-	width: 250px;
-	margin: 0 25px;
+	display: block;
 }

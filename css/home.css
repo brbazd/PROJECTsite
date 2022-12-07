@@ -1,7 +1,203 @@
+/*hero styling*/
+
 #heroBackground {
 	width: 100%;
-	height: 660px;
+	height: 720px;
 	background-image: url("../images/guy-running.jpg");
 	background-position: center center;
 	background-size: cover;
+}
+
+.heroContent {
+	width: 60%;
+	height: 500px;
+	padding: 90px 24px;
+	box-sizing: border-box;
+}
+
+.heroContent h2 {
+	color: white;
+	margin: 0 auto;
+	font-size: 78px;
+	font-family: Arial, sans-serif;
+}
+
+.heroContent p {
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	padding: 20px 0px;
+}
+
+.heroContent #heroButton {
+	width: 100%;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 25px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	transition: 0.15s all;
+}
+
+.heroContent #heroButton span {
+	display: inline-block;
+}
+
+.heroContent #heroButton:hover{
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+
+/*separator bar*/
+
+#saleBar {
+	width: 100%;
+	background-color: black;
+}
+
+.saleHeading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.saleHeading h2 {
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: white;
+	margin: 4px;
+	padding: 12px;
+}
+
+/*sale catalog styling*/
+
+.saleFlex {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 36px auto;
+	flex-wrap: wrap;
+}
+
+.saleFlex .saleContent {
+	width: 250px;
+	height: 350px;
+	background-color: #fff;
+	border: 2px solid rgba(240, 240, 240, 0.75);
+	border-radius: 25px;
+}
+
+.saleFlex .saleContent .saleContentImg {
+	max-width: 220px;
+	margin: 16px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.saleFlex .saleContent .saleContentImg img {
+	max-width: 220px;
+	height: 100%;
+	display: block;
+}
+
+.saleFlex .saleContent .saleContentImg .saleContentDiscount {
+	width: 45px;
+	height: 45px;
+	z-index: 2;
+	background-color: #35b55b;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.saleFlex .saleContent .saleContentImg .saleContentDiscount span {
+	display: inline-block;
+	color: #fff;
+	margin: auto;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.saleFlex .saleContent .saleContentTitle {
+	display: flex;
+	justify-content: center;
+}
+
+.saleFlex .saleContent .saleContentTitle h2 {
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	margin: 5px auto;
+}
+
+.saleFlex .saleContent .saleContentPrice {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.saleFlex .saleContent .saleContentPrice span {
+	display: inline-block;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.saleFlex .saleContent .saleContentPrice .saleContentPriceOld {
+	text-decoration: line-through;
+}
+
+.saleFlex .saleContent .saleContentPrice .saleContentPriceNew {
+	font-size: 24px;
+	color: #35b55b;
+	font-weight: 700;
+}
+
+.saleFlex .saleContent .saleContentBuyBtn {
+	display: inline-block;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding: auto;
+	width: 80%;
+	height: 36px;
+	border: 2px solid #35b55b;
+	border-radius: 16px;
+	background-color: #35b55b;
+	margin: 25px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.15s all;
+}
+
+.saleFlex .saleContent .saleContentBuyBtn:hover {
+	box-sizing: border-box;
+	background-color: white;
+	color: #000;
+	border: 2px solid #000;
+}
+
+.saleBrowseRef {
+	display: flex;
+	justify-content: center;
+	margin: 24px;
+}
+
+.saleBrowseRef a {
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 8px;
 }

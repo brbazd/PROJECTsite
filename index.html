@@ -4,9 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SPORTSRUN - Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/nav.css">
 	<link rel="stylesheet" href="./css/home.css">
+	<link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
@@ -16,10 +20,10 @@
 		<nav class="navBar wrapper">
 			<div class="navLeft">
 				<div id="navLogo"></div>
-				<a href="#">
+				<a href="./index.html">
 					<div class="navButtons">Home</div>
 				</a>
-				<a href="#">
+				<a href="./store.html">
 					<div class="navButtons">Store</div>
 				</a>
 				<a href="#">
@@ -27,8 +31,9 @@
 				</a>
 			</div>
 			<div class="navRight">
-				<input type="text">
-				<div id="navCart"></div>
+				<a href="#">
+					<img src="./images/cart.png" alt="Shopping Cart" id="navCart">
+				</a>
 			</div>
 		</nav>
 	</div>
@@ -36,7 +41,178 @@
 	<!-- hero -->
 	
 	<div id="heroBackground">
-		
+		<div class="heroContainer wrapper">
+			<div class="heroContent">
+				<h2>Seize the day.</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere quaerat maiores assumenda tenetur quas, facilis blanditiis, necessitatibus harum provident magnam. Doloribus ipsam fuga quod et autem architecto, labore sequi.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium fugiat, possimus voluptate iusto minus ducimus praesentium non nam, tempora obcaecati placeat autem, aliquam, eius recusandae.</p>
+				<a href="./store.html" id="heroButton">
+						<span>Shop now!</span>
+				</a>
+			</div>
+			<div></div>
+		</div>
+	</div>
+
+	<!-- on sale grid -->
+
+	<div id="saleBar">
+		<div class="saleHeading wrapper">
+			<h2>ON SALE</h2>
+		</div>
+	</div>
+	<div class="saleFlex wrapper">
+		<div class="saleContent">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				Add to cart
+			</button>
+		</div>
+		<div class="saleContent">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				Add to cart
+			</button>
+		</div>
+		<div class="saleContent">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				Add to cart
+			</button>
+		</div>
+		<div class="saleContent">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				Add to cart
+			</button>
+		</div>
+	</div>
+	<div class="saleBrowseRef">
+		<a href="./store.html">
+			Browse more...
+		</a>
+	</div>
+
+	<!-- footers -->
+
+	<div class="footerBG">
+		<div class="footerGrid wrapper">
+			<div class="footerGridSectionA">
+				<h2>Policy</h2>
+				<ul>
+					<li>
+						<a href="#">Terms &#38; Conditions</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">Return Policy</a>
+					</li>
+					<li>
+						<a href="#">Cookies</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerGridSectionB">
+				<h2>Help</h2>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerGridSectionC">
+				<h2>Social Media</h2>
+				<ul>
+					<li>
+						<a href="#">Instagram</a>
+					</li>
+					<li>
+						<a href="#">TikTok</a>
+					</li>
+					<li>
+						<a href="#">Facebook</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerGridSectionD">
+				<h2></h2>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a target="_blank" href="https://icons8.com/icon/85080/shopping-cart">Shopping Cart</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

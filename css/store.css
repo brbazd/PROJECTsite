@@ -1,0 +1,38 @@
+
+#storeBackground {
+	background-image: url(../images/more-guys-running.jpg);
+	width: 100%;
+	height: 250px;
+	background-position: center center;
+	background-size: cover;
+}
+
+#storeOverlay {
+	width: 100%;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+
+#storeOverlay #storeTitle {
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#storeOverlay #storeTitle h1 {
+	font-family: Arial, sans-serif;
+	font-size: 92px;
+	margin: 0;
+	color: #fff;
+}
+
+.breadcrumbContainer {
+	padding: 5px;
+}
+
+.breadcrumbContainer * {
+	font-family: Roboto, Arial, sans-serif;
+	color: #000;
+	font-size: 20px;
+}
