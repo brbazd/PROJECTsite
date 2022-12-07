@@ -1,0 +1,39 @@
+.footerBG {
+    background-color: #000;
+    color: #aaa;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template:
+            "a b c d" 500px / 1fr 1fr 1fr 1fr;
+}
+
+.footerGrid ul {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.footerGrid li {
+    padding: 4px 0;
+}
+
+.footerGrid a {
+    color: #aaa;
+}
+
+.footerGridSectionA {
+    grid-area: a;
+}
+
+.footerGridSectionB {
+    grid-area: b;
+}
+
+.footerGridSectionC {
+    grid-area: c;
+}
+
+.footerGridSectionD {
+    grid-area: d;
+}

@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	background-color: #F6F6F6;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
