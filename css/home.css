@@ -201,3 +201,9 @@
 	font-size: 24px;
 	padding-bottom: 8px;
 }
+
+@media (max-width: 614px) {
+	.heroContent {
+		width: 100%;
+	}
+}
