@@ -2,16 +2,14 @@
 
 #heroBackground {
 	width: 100%;
-	height: 720px;
 	background-image: url("../images/guy-running.jpg");
 	background-position: center center;
 	background-size: cover;
 }
 
 .heroContent {
-	width: 60%;
-	height: 500px;
-	padding: 90px 24px;
+	width: 614px;
+	padding: 120px 24px;
 	box-sizing: border-box;
 }
 
@@ -91,8 +89,10 @@
 	width: 250px;
 	height: 350px;
 	background-color: #fff;
-	border: 2px solid rgba(240, 240, 240, 0.75);
+	/*border: 2px solid rgba(240, 240, 240, 0.75);*/
 	border-radius: 25px;
+	box-shadow: 0 0 10px 1px rgba(66, 66, 66, 0.2);	
+	margin: 5px 0;
 }
 
 .saleFlex .saleContent .saleContentImg {
