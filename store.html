@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SPORTSRUN - Home</title>
+	<title>SPORTSRUN - Store</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -17,18 +17,28 @@
 	<!-- navigation -->
 
 	<div class="topBar">
+		<input type="checkbox" class="navCheckbox">
+		<div class="navCheckButton"></div>
 		<nav class="navBar wrapper">
 			<div class="navLeft">
-				<div id="navLogo"></div>
-				<a href="./index.html">
-					<div class="navButtons">Home</div>
-				</a>
-				<a href="./store.html">
-					<div class="navButtons">Store</div>
-				</a>
 				<a href="#">
-					<div class="navButtons">Contact</div>
+					<div id="navLogo">
+						<img src="./images/logo.png" alt="Logo of sportsrun">
+						<span>SPORTSRUN</span>
+					</div>
 				</a>
+				
+				<div class="navLinks">
+					<a href="./index.html">
+						<div class="navButtons">Home</div>
+					</a>
+					<a href="./store.html">
+						<div class="navButtons">Store</div>
+					</a>
+					<a href="./contact.html">
+						<div class="navButtons">Contact</div>
+					</a>
+				</div>
 			</div>
 			<div class="navRight">
 				<a href="#">
@@ -36,6 +46,21 @@
 				</a>
 			</div>
 		</nav>
+
+		<div class="navBurgerLinks">
+			<a href="./index.html">
+				<div class="navBurgerButton">Home</div>
+			</a>
+			<a href="./store.html">
+				<div class="navBurgerButton">Store</div>
+			</a>
+			<a href="./contact.html">
+				<div class="navBurgerButton">Contact</div>
+			</a>
+			<a href="#">
+				<div class="navBurgerButton">My Cart</div>
+			</a>
+		</div>
 	</div>
 
 	<!-- store heading -->
@@ -51,8 +76,262 @@
 	<div class="breadcrumbContainer wrapper">
 		<a href="./index.html">Home</a><span>&#47;</span><span>Store</span>
 	</div>
-	<div class="storeItemContainer">
-		
+
+	<div class="storeFilters wrapper">
+		<div class="storeFilterField">
+			<input type="text" placeholder="Search by keyword...">
+		</div>
+	</div>
+
+	<div class="storeItemContainer wrapper">
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+		<div class="storeItemBox">
+			<a href="#">
+				<div class="saleContentImg">
+					<div class="saleContentDiscount">
+						<span>-50&#37;</span>
+					</div>
+					<img src="./images/trainers.jpg" alt="Trainers">
+				</div>
+				<div class="saleContentTitle">
+					<h2>Trainers</h2>
+				</div>
+			</a>
+			<div class="saleContentPrice">
+				<span class="saleContentPriceOld">&#36;49.99</span>
+				<span class="saleContentPriceNew">&#36;24.99</span>
+			</div>
+			<button class="saleContentBuyBtn">
+				View product
+			</button>
+		</div>
+	</div>
+
+	<div class="storePages wrapper">
+		<div class="storePagesNum">
+			<span>1</span>
+			<a href="#">2</a>
+			<a href="#">3</a>
+		</div>
 	</div>
 
 
@@ -81,13 +360,13 @@
 				<h2>Help</h2>
 				<ul>
 					<li>
-						<a href="#"></a>
+						<a href="#">FAQ</a>
 					</li>
 					<li>
-						<a href="#"></a>
+						<a href="mailto:">Contact Email</a>
 					</li>
 					<li>
-						<a href="#"></a>
+						<a href="#">About us</a>
 					</li>
 				</ul>
 			</div>
@@ -106,13 +385,11 @@
 				</ul>
 			</div>
 			<div class="footerGridSectionD">
-				<h2></h2>
 				<ul>
 					<li>
-						<a href="#"></a>
-					</li>
-					<li>
-						<a href="#"></a>
+						<a href="#">
+							<img src="./images/payments.png" alt="Payment Methods">
+						</a>
 					</li>
 					<li>
 						<a target="_blank" href="https://icons8.com/icon/85080/shopping-cart">Shopping Cart</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

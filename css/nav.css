@@ -19,9 +19,26 @@
 
 .navLeft #navLogo {
 	margin: 0 10px;
+	width: auto;
+	height: 30px;
+	display: flex;
+}
+
+#navLogo img {
 	width: 30px;
 	height: 30px;
-	background-color: white;
+}
+
+#navLogo span {
+	font-family: Impact;
+	color: white;
+	font-style: italic;
+	font-size: 26px;
+	display: inline-block;
+}
+
+.navLinks {
+	display: flex;
 }
 
 .navLeft a .navButtons {
@@ -52,4 +69,94 @@
 	width: 30px;
 	height: 30px;
 	display: block;
+}
+
+.navCheckbox {
+	display: none;
+	margin: 0;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.navBurgerLinks {
+	display: none;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+
+.navCheckButton {
+	display: none;
+}
+
+.navBurgerLinks a {
+	text-decoration: none;
+	width: 100%;
+	padding: 20px 30px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 24px;
+	color: white;
+	background-color: #000;
+	display: block;
+	transition: 0.15s all;
+	box-sizing: border-box;
+}
+
+.navBurgerLinks a .navBurgerButton {
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	transition: 0.15s all;
+}
+
+.navBurgerLinks a:hover {
+	background-color: #35b55b;
+	color: #fff;
+}
+
+
+
+@media (max-width: 600px) {
+	.navRight, .navRight #navCart, .navLeft .navLinks {
+		display: none;
+	}
+
+	#navLogo {
+		position: absolute;
+		top: 16px;
+	}
+
+	#navLogo span {
+		display: none;
+	}
+
+	.navCheckbox {
+		display: block;
+		opacity: 0%;
+		z-index: 2;
+	}
+
+	.navCheckbox:checked ~ .navBurgerLinks {
+		display: block;
+	}
+
+	.navCheckButton {
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		background-image: url(../images/menu.png);
+		background-position: center center;
+		background-size: 30px 30px;
+		z-index: 1;
+	}
+
+	.navCheckbox:checked ~ .navCheckButton {
+		background-image: url(../images/cross.png);
+	}
 }

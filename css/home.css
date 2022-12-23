@@ -5,11 +5,12 @@
 	background-image: url("../images/guy-running.jpg");
 	background-position: center center;
 	background-size: cover;
+	z-index: -1;
 }
 
 .heroContent {
 	width: 614px;
-	padding: 120px 24px;
+	padding: 190px 24px;
 	box-sizing: border-box;
 }
 
@@ -205,5 +206,9 @@
 @media (max-width: 614px) {
 	.heroContent {
 		width: 100%;
+	}
+
+	.heroContent h2 {
+		font-size: 60px;
 	}
 }

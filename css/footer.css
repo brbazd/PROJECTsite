@@ -26,6 +26,11 @@
     color: #aaa;
 }
 
+.footerGrid h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+
 .footerGridSectionA {
     grid-area: a;
 }
@@ -40,4 +45,32 @@
 
 .footerGridSectionD {
     grid-area: d;
+}
+
+.footerGridSectionD ul {
+    margin: 0;
+}
+
+.footerGridSectionD img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .footerGrid {
+        grid-template-areas:
+                "a"
+                "b"
+                "c"
+                "d";
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .footerGridSectionD img {
+        width: 80%;
+    }
 }

@@ -36,3 +36,136 @@
 	color: #000;
 	font-size: 20px;
 }
+
+.storeFilterField {
+	display: flex;
+	justify-content: flex-end;
+	margin: 15px;
+}
+
+.storeFilterField input {
+	padding: 10px 5px;
+	width: 200px;
+}
+
+.storeItemContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.storeItemBox {
+	width: 280px;
+	height: 350px;
+	background-color: #fff;
+	/*border: 2px solid rgba(240, 240, 240, 0.75);*/
+	border-radius: 25px;
+	box-shadow: 0 0 10px 1px rgba(66, 66, 66, 0.2);	
+	margin: 5px;
+}
+
+.storeItemBox .saleContentImg {
+	max-width: 220px;
+	margin: 16px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.storeItemBox .saleContentImg img {
+	max-width: 220px;
+	height: 100%;
+	display: block;
+}
+
+.storeItemBox .saleContentImg .saleContentDiscount {
+	width: 45px;
+	height: 45px;
+	z-index: 2;
+	background-color: #35b55b;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.storeItemBox .saleContentImg .saleContentDiscount span {
+	display: inline-block;
+	color: #fff;
+	margin: auto;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.storeItemBox .saleContentTitle {
+	display: flex;
+	justify-content: center;
+}
+
+.storeItemBox .saleContentTitle h2 {
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	margin: 5px auto;
+}
+
+.storeItemBox .saleContentPrice {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.storeItemBox .saleContentPrice span {
+	display: inline-block;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.storeItemBox .saleContentPrice .saleContentPriceOld {
+	text-decoration: line-through;
+}
+
+.storeItemBox .saleContentPrice .saleContentPriceNew {
+	font-size: 24px;
+	color: #35b55b;
+	font-weight: 700;
+}
+
+.storeItemBox .saleContentBuyBtn {
+	display: inline-block;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding: auto;
+	width: 80%;
+	height: 36px;
+	border: 2px solid #35b55b;
+	border-radius: 16px;
+	background-color: #35b55b;
+	margin: 25px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.15s all;
+}
+
+.storeItemBox .saleContentBuyBtn:hover {
+	box-sizing: border-box;
+	background-color: white;
+	color: #000;
+	border: 2px solid #000;
+}
+
+.storePages {
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+	margin: 32px auto;
+}
+
+.storePagesNum {
+	width: 200px;
+	display: flex;
+	justify-content: space-evenly;
+}
