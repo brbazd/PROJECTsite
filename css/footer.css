@@ -6,7 +6,7 @@
 .footerGrid {
     display: grid;
     grid-template:
-            "a b c d" 500px / 1fr 1fr 1fr 1fr;
+            "a b c d" 350px / 1fr 1fr 1fr 1fr;
 }
 
 .footerGrid div {
@@ -57,8 +57,14 @@
     border-radius: 10px;
 }
 
+.footerBG p {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     .footerGrid {
         grid-template-areas:
                 "a"
